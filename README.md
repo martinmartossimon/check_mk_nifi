@@ -19,11 +19,11 @@ Plugin for check_mk witch gets Apache NIFI system-diagnostics metrics and integr
 Imagen1
 
 # Parameters
-URL_NIFI -> Points to /nifi-api/system-diagnostics URL.
-HOST -> This is for diferenciate services names in case you run this plugin for several endpoints in the same host
-UMBRAL_HEAP -> % Heap Utilization Threeshold
-UMBRAL_DISK_UTILIZATION -> % Disk Utilization Threeshold for: flowFileRepositoryStorageUsage,contentRepositoryStorageUsage,provenanceRepositoryStorageUsage
-MENSAJE_ESCALAR -> Custom plugin output in case of Critical State. Used for scallation.
+- __URL_NIFI__ -> Points to /nifi-api/system-diagnostics URL.
+- __HOST__ -> This is for diferenciate services names in case you run this plugin for several endpoints in the same host
+- __UMBRAL_HEAP__ -> % Heap Utilization Threeshold
+- __UMBRAL_DISK_UTILIZATION__ -> % Disk Utilization Threeshold for: flowFileRepositoryStorageUsage,contentRepositoryStorageUsage,provenanceRepositoryStorageUsage
+- __MENSAJE_ESCALAR__ -> Custom plugin output in case of Critical State. Used for scallation.
 Imagen2
 
 
